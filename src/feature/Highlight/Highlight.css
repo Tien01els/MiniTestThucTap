@@ -1,0 +1,44 @@
+.Highlight {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin-top: 52px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.hightlight-special {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hightlight-special .ArticleItem {
+    padding: 12px 0;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.hightlight-special a:not(:last-child) .ArticleItem {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.hightlight-special img {
+    width: 160px;
+    margin-right: 16px;
+}
+
+.hightlight-special .article-item-container {
+    display: flex;
+    width: 320px;
+}
+
+.hightlight-special .article-item-container p {
+    font-size: 16px;
+}
+
+.hightlight-special .title-article-item {
+    font-weight: 650;
+}
